@@ -2,20 +2,109 @@
 <html>
 <head>
     <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        .highlight {
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
+        <img src="images/your-photo.jpg" alt="Your Name">
         <h1>Your Name</h1>
         <p>Web Developer</p>
     </header>
-    <section id="projects">
-        <!-- Add your project details here -->
-    </section>
+    
     <section id="about">
-        <!-- Add information about yourself here -->
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a passionate web developer with a strong interest in <span class="highlight">front-end development</span>.
+            I enjoy creating beautiful and responsive web experiences.
+            Currently, I am pursuing my Bachelor's degree in Computer Science at XYZ University.
+            My goal is to contribute to the tech community and build meaningful projects.
+        </p>
     </section>
+
+    <section id="research">
+        <h2>Research Interests</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>User Interface Design</li>
+            <li>Artificial Intelligence</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Science in Computer Science</strong><br>
+        XYZ University<br>
+        Expected Graduation: May 20XX</p>
+    </section>
+
     <section id="contact">
-        <!-- Add contact information here -->
+        <h2>Contact Me</h2>
+        <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-id">LinkedIn Profile</a></p>
     </section>
 </body>
 </html>
